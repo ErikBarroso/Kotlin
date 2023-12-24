@@ -14,16 +14,28 @@
 //}
 
 
-val actions = listOf("title", "year", "author")
-val prefix = "https://example.com/book-info"
-val id = 5
+//val actions = listOf("title", "year", "author")
+//val prefix = "https://example.com/book-info"
+//val id = 5
+//
+//fun url(actions: String, id: Int): ()-> String =  { -> "$prefix/$id/$actions" }
+//
+//fun main() {
+//
+//    val buildUrl = url(actions[0], id)
+//
+//    println(buildUrl())
+//
+//}
 
-fun url(actions: String, id: Int): ()-> String =  { -> "$prefix/$id/$actions" }
+fun repeatN(n: Int, action: () -> Unit) {
+    for(n in 1..n) {
+        action()
+    }
+}
 
 fun main() {
-
-    val buildUrl = url(actions[0], id)
-
-    println(buildUrl())
-
+    repeatN(5) {
+        println("Hello")
+    }
 }
