@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69981628-25db-4e3a-b1be-57fc88155542" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/class.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Null safety.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
     "Kotlin.ClassKt.executor": "Run",
     "Kotlin.ForKt.executor": "Run",
     "Kotlin.FunctionKt.executor": "Run",
+    "Kotlin.Null_safetyKt.executor": "Run",
     "Kotlin.WhenKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
