@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69981628-25db-4e3a-b1be-57fc88155542" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ex.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/For.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/For.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Null safety.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Null safety.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +38,14 @@
   "keyToString": {
     "Kotlin.ClassKt.executor": "Run",
     "Kotlin.ExKt.executor": "Run",
+    "Kotlin.ExerciciosKt.executor": "Run",
     "Kotlin.ForKt.executor": "Run",
     "Kotlin.FunctionKt.executor": "Run",
     "Kotlin.Null_safetyKt.executor": "Run",
     "Kotlin.WhenKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/barro/OneDrive/Desktop/Programação/Kotlin/Estudos_kotlin/src/Main.kt"
