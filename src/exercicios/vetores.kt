@@ -16,16 +16,34 @@ fun main() {
      }
      */
 
-    val quantidadeDeMatriculas: Int = reader.nextInt()
-    val matriculas = IntArray(quantidadeDeMatriculas)
+//    val quantidadeDeMatriculas: Int = reader.nextInt()
+//    val matriculas = IntArray(quantidadeDeMatriculas)
+//
+//    for(matricula in 0 until quantidadeDeMatriculas) {
+//        matriculas[matricula] = reader.nextInt()
+//    }
+//
+//    var matriculasInvertidas = matriculas.reversedArray()
+//    print(matriculasInvertidas.joinToString(" "))
 
-    for(matricula in 0 until quantidadeDeMatriculas) {
-        matriculas[matricula] = reader.nextInt()
+    //busca em vetor
+
+    var quantidadePessoas = reader.nextInt()
+    var bilhetes = IntArray(quantidadePessoas)
+
+    for(bilhete in 0 until quantidadePessoas){
+        bilhetes[bilhete] = reader.nextInt()
     }
 
-    var matriculasInvertidas = matriculas.reversedArray()
-    print(matriculasInvertidas.joinToString(" "))
+    var premiado = reader.nextInt()
 
-
+    for(bilhete in 0 until quantidadePessoas){
+        if(premiado == bilhetes[bilhete]) {
+            println("Número da poltrona do vencedor: $bilhete")
+            break
+        }else if (bilhete == quantidadePessoas -1){
+            print("Não há vencedor")
+        }
+    }
 }
 
