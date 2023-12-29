@@ -20,13 +20,29 @@ fun main() {
 
     // multiplos de 7
 
-    val numero = reader.nextInt()
+//    val numero = reader.nextInt()
+//
+//    println(
+//        when{
+//            numero % 7 == 0 -> "É MÚLTIPLO DE 7"
+//            numero % 7 != 0 -> "ESSE NÃO É"
+//            else -> "invalid"
+//        }
+//    )
+
+    //Saída diferente a depender do valor de P e R
+
+    val p = reader.nextInt()
+    val r = reader.nextInt()
 
     println(
-        when{
-            numero % 7 == 0 -> "É MÚLTIPLO DE 7"
-            numero % 7 != 0 -> "ESSE NÃO É"
+        when {
+            p == 0 -> "C"
+            p == 1 && r == 1 -> "A"
+            p == 1 && r == 0 -> "B"
             else -> "invalid"
         }
     )
+
+
 }
